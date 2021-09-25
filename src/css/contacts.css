@@ -1,0 +1,105 @@
+* {
+  padding: o;
+  margin: 0;
+  box-sizing: border-box; }
+
+.underline {
+  text-decoration: underline; }
+
+.list-type-none {
+  list-style-type: none;
+  margin-top: -10px;
+  position: relative; }
+
+span {
+  position: absolute;
+  right: 55px; }
+
+.site .main .content .description {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; }
+  .site .main .content .description h5 {
+    color: #504848;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 600; }
+  .site .main .content .description p,
+  .site .main .content .description a, .site .main .content .description ul {
+    font-size: 10px;
+    color: #59574a;
+    margin-bottom: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 14px; }
+  .site .main .content .description .pizza,
+  .site .main .content .description .contactus {
+    height: 100%;
+    padding: 20px 10px; }
+  .site .main .content .description .pizza {
+    width: 40%; }
+    .site .main .content .description .pizza img {
+      margin-bottom: 10px; }
+  .site .main .content .description .contactus {
+    padding-right: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; }
+    .site .main .content .description .contactus p {
+      line-height: 11px; }
+    .site .main .content .description .contactus a {
+      text-decoration: none; }
+    .site .main .content .description .contactus a:hover {
+      text-decoration: underline; }
+    .site .main .content .description .contactus .contactform .first-row {
+      margin-bottom: 5px; }
+      .site .main .content .description .contactus .contactform .first-row input {
+        width: 93px;
+        font-size: 10px;
+        padding: 2px;
+        border-top: 1.5px solid; }
+    .site .main .content .description .contactus .contactform .textform {
+      margin-bottom: 5px; }
+      .site .main .content .description .contactus .contactform .textform textarea {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+        padding: 4px;
+        border-top: 2px solid;
+        border-right: 1.7px solid;
+        width: 190px;
+        height: 70px; }
+    .site .main .content .description .contactus .contactform .buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px; }
+      .site .main .content .description .contactus .contactform .buttons button {
+        cursor: pointer;
+        font-weight: 600;
+        padding: 2px;
+        width: 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+        color: #696761;
+        border: 1px solid #aca99d;
+        border-radius: 2px;
+        background-image: url(../images/buttonimg.svg);
+        background-size: cover; }
+
+.footer {
+  background-image: url(../images/Path.png);
+  background-size: cover;
+  height: 13%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px; }
+  .footer div p {
+    color: #ffffcc;
+    opacity: 0.7;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -8px; }
+  .footer div:last-child p {
+    text-align: right; }

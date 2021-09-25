@@ -1,0 +1,28 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 766 700" width="766" height="700">
+	<title>19-1</title>
+	<defs>
+		<image  width="239" height="1" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAO8AAAABAQMAAAAM8GsIAAAAAXNSR0IB2cksfwAAAAZQTFRF1c211c21kqC/SgAAAAJ0Uk5T/xD4ACAuAAAADElEQVR4nGMIxQdCAJqDCfY7HPs+AAAAAElFTkSuQmCC"/>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="100" y1="1.2" x2="100" y2="-19.8">
+			<stop offset="0" stop-color="#000000"  />
+			<stop offset="1" stop-color="#ffffff"  />
+		</linearGradient>
+		<image  width="4" height="1" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABAQMAAADD8p2OAAAAAXNSR0IB2cksfwAAAAZQTFRF1c211c21kqC/SgAAAAJ0Uk5T/xD4ACAuAAAACklEQVR4nGMIAAAAUgBR9yHZtwAAAABJRU5ErkJggg=="/>
+		<image  width="4" height="1" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABAQMAAADD8p2OAAAAAXNSR0IB2cksfwAAAAZQTFRF1c211c21kqC/SgAAAAJ0Uk5TEP8RUzDkAAAACklEQVR4nGMIAAAAUgBR9yHZtwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 26px;line-height: 26px;fill:  url(#grd1);font-family: "Romul" } 
+		.txt1 { font-size: 10px;line-height: 10px;fill: #cfc198;font-weight: bold;font-family: "Academy" } 
+	</style>
+	<use id="Path" style="opacity: 0.502" href="#img1" x="260" y="116" />
+	<text id="Text" style="transform: matrix(1,0,0,1,283,110.8)" >
+		<tspan x="0" y="0" class="txt0">PIZZA HOUSE
+</tspan>
+	</text>
+	<text id="Text" style="transform: matrix(1,0,0,1,325,128)" >
+		<tspan x="0" y="0" class="txt1">ONLY PERFECT PIZZA 
+</tspan>
+	</text>
+	<use id="Path" href="#img2" x="260" y="116" />
+	<use id="Path" href="#img3" x="497" y="116" />
+</svg>

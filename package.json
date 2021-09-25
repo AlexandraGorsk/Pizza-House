@@ -1,0 +1,18 @@
+{
+  "name": "lastmaket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --outpuy-style compressed -o src/css src/scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "concurrently": "^6.2.1",
+    "gulp": "^4.0.2",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
