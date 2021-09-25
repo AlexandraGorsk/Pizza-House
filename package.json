@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass --output-style compressed -o src/css src/scss"
+    "build-css": "node-sass --output-style compressed -o src/css src/scss",
+    "livereload":"gulp",
+    "dev":"concurrently --kill-others \"npm run livereload\" \"npm run build-css\""
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +14,10 @@
     "browser-sync": "^2.27.5",
     "concurrently": "^6.2.1",
     "gulp": "^4.0.2",
+    "gulp-livereload": "^4.0.2",
+    "gulp-sass": "^5.0.0",
     "node-sass": "^6.0.1",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "sass": "^1.42.1"
   }
 }
