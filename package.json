@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass --outpuy-style compressed -o src/css src/scss"
+    "build-css": "node-sass --output-style compressed -o src/css src/scss"
   },
   "author": "",
   "license": "ISC",
