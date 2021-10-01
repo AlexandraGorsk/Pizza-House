@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --output-style compressed -o src/css src/scss",
-    "livereload":"gulp",
-    "dev":"concurrently --kill-others \"npm run livereload\" \"npm run build-css\""
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
   "license": "ISC",

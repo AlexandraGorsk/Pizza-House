@@ -1,5 +1,5 @@
 * {
-	padding: o;
+	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
@@ -7,27 +7,30 @@
 	text-decoration: underline;
 }
 .list-type-none {
-    list-style-type: none;
-    margin-top: -10px;
-    position: relative;
+	list-style-type: none;
+	margin-top: -10px;
+	position: relative;
 }
-span{
-    position: absolute;
-    right: 55px;
+.right {
+	text-align: right;
+}
+
+.tel-section {
+	position: absolute;
+	right: 55px;
 }
 .site .main .content .description {
 	display: flex;
 	flex-direction: row;
 	gap: 10px;
-	h5 {
+	.contact-subtitle {
 		color: #504848;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		font-size: 14px;
 		margin-bottom: 10px;
 		font-weight: 600;
 	}
-	p,
-	a, ul {
+	.basic-style {
 		font-size: 10px;
 		color: #59574a;
 		margin-bottom: 13px;
@@ -41,7 +44,7 @@ span{
 	}
 	.pizza {
 		width: 40%;
-		img {
+		.pizza-giant {
 			margin-bottom: 10px;
 		}
 	}
@@ -51,15 +54,13 @@ span{
 		display: flex;
 		flex-direction: column;
 		gap: 15px;
-		p {
-			line-height: 11px;
-		}
-		a {
+		line-height: 11px;
+		.for-a {
 			text-decoration: none;
 		}
-        a:hover {
-            text-decoration: underline;
-        }
+		.for-a:hover {
+			text-decoration: underline;
+		}
 		.contactform {
 			.first-row {
 				margin-bottom: 5px;
@@ -77,7 +78,7 @@ span{
 					font-size: 10px;
 					padding: 4px;
 					border-top: 2px solid;
-                    border-right: 1.7px solid;
+					border-right: 1.7px solid;
 					width: 190px;
 					height: 70px;
 				}
@@ -87,17 +88,17 @@ span{
 				justify-content: flex-end;
 				gap: 10px;
 				button {
-                    cursor: pointer;
+					cursor: pointer;
 					font-weight: 600;
 					padding: 2px;
 					width: 60px;
 					font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 					font-size: 10px;
 					color: #696761;
-                    border: 1px solid #aca99d;
-                    border-radius: 2px;
-                    background-image: url(../images/buttonimg.svg);
-                    background-size: cover;
+					border: 1px solid #aca99d;
+					border-radius: 2px;
+					background-image: url(../images/buttonimg.svg);
+					background-size: cover;
 				}
 			}
 		}
@@ -112,15 +113,12 @@ span{
 	justify-content: space-between;
 	align-items: center;
 	padding: 13px;
-	div p {
+	.footer-p {
 		color: #ffffcc;
 		opacity: 0.7;
 		font-weight: bold;
 		font-size: 10px;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		margin-top: -8px;
-	}
-	div:last-child p {
-		text-align: right;
 	}
 }
