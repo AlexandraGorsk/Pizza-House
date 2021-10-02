@@ -29,9 +29,9 @@
             text-decoration: underline;
             cursor: pointer;
         }
-		li:before {
-			content: '  ';
-            background-image: url(../images/list-point.png);
+		li::before {
+			content:url(../images/listpointer.png);
+			margin-right: 3px;
 
 		}
 		.first-li {
