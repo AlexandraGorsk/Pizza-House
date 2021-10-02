@@ -1,18 +1,15 @@
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
 .underline {
 	text-decoration: underline;
 }
 .list-type-none {
 	list-style-type: none;
-	margin-top: -10px;
 	position: relative;
 }
 .right {
 	text-align: right;
+}
+.mg-bot {
+	margin-bottom: 13px;
 }
 
 .tel-section {
@@ -33,7 +30,6 @@
 	.basic-style {
 		font-size: 10px;
 		color: #59574a;
-		margin-bottom: 13px;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		line-height: 14px;
 	}
